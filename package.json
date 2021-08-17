@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio dev",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint",
+    "deploy": "npm run build && cross-env NODE_ENV=production firebase deploy --only functions,hosting"
+  },
+  "repository": "git+https://github.com/saintskeeper/portfolio.git",
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "walter day",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/saintskeeper/portfolio/issues"
+  },
+  "homepage": "https://github.com/saintskeeper/portfolio#readme",
+  "dependencies": {
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

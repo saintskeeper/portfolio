@@ -1,12 +1,12 @@
 import Layout from "../components/Layout";
-const HireMe = () => (
-	<Layout>
-<h1> LFW</h1>
-<p>Can be highered at <a
- href="mailto:test@gmail.com">test@gmail.com
- </a> </p>
- </Layout>
-)
-// div tag used to divide sectons of a doc
 
-export default HireMe
+const HireMe = () => (
+  <Layout title="Hire Me">
+    <p>
+      You can hire me at{" "}
+      <a href="mailto:expertcoder@gmail.com">expertcoder@gmail.com</a>
+    </p>
+  </Layout>
+);
+
+export default HireMe;
